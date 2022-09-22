@@ -1,0 +1,38 @@
+node-source-list-map (2.0.1+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-source-list-map: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * New upstream version 2.0.1+dfsg
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 19 Dec 2020 14:28:18 +0100
+
+node-source-list-map (2.0.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 30 Jan 2018 20:09:36 +0530
+
+node-source-list-map (1.1.1+dfsg-1) unstable; urgency=low
+
+  * Initial release (Closes: #806155)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 04 May 2017 14:00:04 +0530
