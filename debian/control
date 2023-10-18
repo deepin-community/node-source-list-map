@@ -5,7 +5,7 @@ Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.deb
 Uploaders: Pirate Praveen <praveen@debian.org>
 Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
-Standards-Version: 4.5.1
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/js-team/node-source-list-map
 Vcs-Git: https://salsa.debian.org/js-team/node-source-list-map.git
 Homepage: https://github.com/webpack/source-list-map
@@ -15,6 +15,7 @@ Rules-Requires-Root: no
 Package: node-source-list-map
 Architecture: all
 Depends: ${misc:Depends}
+Provides: ${nodejs:Provides}
 Multi-Arch: foreign
 Description: Fast line to line SourceMap generator
  This library is a dependency for webpack. Webpack takes code targeted at
